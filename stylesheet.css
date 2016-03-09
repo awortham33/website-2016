@@ -37,7 +37,8 @@ a{
 }
 
 .sentence{
-    font-size: 2em;
+    font-size: 1.8em;
+    font-weight: bold;
 }
 
 .header{ 
@@ -117,7 +118,7 @@ ul.shots li{
   margin-top: -15px;
   line-height: 3;
   text-align: center;
-  font-size: 2em;
-  font-weight: 150;
+  font-size: 1.8em;
+  font-weight: bold;
   
 }
