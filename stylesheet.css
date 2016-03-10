@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 *{
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
@@ -14,6 +16,7 @@ body{
     font-size: 60%; 
     font-family: 'Raleway', sans-serif;
     height: 100%;
+    color: #4A4A4A; 
 }
 
 .container{ 
@@ -22,8 +25,13 @@ body{
     width: 92%; 
 }
 
+p{
+    color: #4A4A4A; 
+}
+
 a{ 
-    color: rgb(36, 193, 252); 
+    
+    color: rgb(36, 193, 252);
     text-decoration: none; 
     -webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -34,6 +42,8 @@ a{
 .title{
     font-size: 5em;
     font-weight: bold;
+    color: #222;
+    font-family: "Montserrat", sans-serif;
 }
 
 .sentence{
@@ -111,14 +121,24 @@ ul.shots li{
 }
 
 .home-footer a {
-  color: #222;
-
-  display: block;
+  color: #4A4A4A;
+  display:block;
   min-width: 100%;
   margin-top: -15px;
   line-height: 3;
   text-align: center;
   font-size: 1.8em;
   font-weight: bold;
+}
+
+.home-footer{
+  -webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
   
 }
+
+.home-footer:hover {
+        opacity: 0.6;   
+    }
