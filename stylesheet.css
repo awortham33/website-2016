@@ -59,7 +59,8 @@ a{
 
 .text-block{ 
     margin: 0 auto; 
-    max-width: 750px; 
+    max-width: 750px;
+    text-align: center;
 }
 
 .social{
@@ -76,6 +77,19 @@ a{
 
 .social a:hover{
     opacity: 0.4;
+}
+
+.tool{
+    text-align: center;
+    padding-top: 0em;
+    padding-bottom: 1em;
+}
+
+.tool img{
+    display: inline-block;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 2em;
 }
 
 img{
@@ -96,6 +110,13 @@ ul.shots li{
     float: left;
     padding: 1%;
     width: 33.33%;
+}
+
+ul.shots p{
+    text-align: center;
+    font-size: 1.8em; 
+    font-weight: bold;
+    
 }
 
 .clearfix:after {
@@ -125,6 +146,7 @@ ul.shots li{
   display:block;
   min-width: 100%;
   margin-top: -15px;
+    margin-bottom: 15px;
   line-height: 3;
   text-align: center;
   font-size: 1.8em;
