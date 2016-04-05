@@ -17,12 +17,17 @@ body{
     font-family: 'Raleway', sans-serif;
     height: 100%;
     color: #4A4A4A; 
+    margin: 0px;
 }
 
 .container{ 
     margin: 0 auto; 
-    max-width: 1000px; 
-    width: 92%; 
+    max-width:; 
+    width:; 
+    padding: 10 0 10 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
 p{
@@ -39,45 +44,62 @@ a{
 	transition: all 0.2s ease-in-out;
 }
 
+.socialbar{
+    display: block; 
+    float: center;
+    z-index:99;
+    margin-bottom:5em;
+}
+
+
 .title{
     font-size: 5em;
     font-weight: bold;
-    color: #222;
+    color: white;
     font-family: "Montserrat", sans-serif;
 }
 
+
 .sentence{
-    font-size: 1.8em;
-    font-weight: bold;
+    font-size: 2.3em;
 }
 
 .header{ 
     color: #222; 
-    padding-top: 5em;
+    padding-top: 10px;
     text-align: center;
+    background: #162634;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header .subtitle{
+    color: white;
+    font-weight: bold;
+    font-size:20px; 
+    margin-top:-35px;
+}
+
+.header .sentence{
+    margin-top:2em;
+    color: white;
+    font-weight: regular;
+}
+
+.subtitle{
+    font-weight:bold;
+    color: white;
+    font-size: 3em;
 }
 
 .text-block{ 
     margin: 0 auto; 
     max-width: 750px;
     text-align: center;
+    font-size:10px;
 }
 
-.social{
-    text-align: center;
-    padding-top: 3em;
-    padding-bottom: 1em;
-}
 
-.social a{
-	text-align: center;
-	display: inline-block;
-    padding: 1em;
-}
-
-.social a:hover{
-    opacity: 0.4;
-}
 
 .tool{
     text-align: center;
@@ -86,7 +108,7 @@ a{
 }
 
 .tool img{
-    display: inline-block;
+    display: inline-flex;
     margin-left: 6em;
     margin-right: 6em;
     margin-bottom: 2em;
@@ -99,23 +121,74 @@ img{
 	max-width: 100%;
 }
 
+.dribbble{
+ background: #D9E1E8;
+}
+
 ul.shots{ 
     list-style: none; 
-    margin: 0; 
-    padding: 0;
+    margin: 0 auto; 
+    padding: 0 0 0 0;
+    width:100%;
 }
 
 ul.shots li{
-    display: block;
+    display: inline;
     float: left;
-    padding: 1%;
-    width: 33.33%;
+    padding: .2%;
+    width: 25%;
 }
 
 ul.shots p{
     text-align: center;
-    font-size: 1.8em; 
+    font-size: 2em; 
     font-weight: bold;
+    
+}
+
+.design{
+    background: url(/images/backs/dsn.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 4 0 4 0;
+    
+}
+
+.prototype{
+    background: url(/images/backs/pr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 4 0 4 0;
+    
+}
+
+.code{
+    background: url(/images/backs/cd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 4 0 4 0;
+    
+}
+
+.social{
+    text-align: center;
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+.social a{
+	text-align: center;
+	display: inline-block;
+    padding: 1em;
+}
+
+.social a:hover{
+    opacity: 0.4;
+}
+
+
+.footer{
+    background:#F2F2F2; 
     
 }
 
@@ -142,15 +215,16 @@ ul.shots p{
 }
 
 .home-footer a {
-  color: #4A4A4A;
+  color: #303030;
   display:block;
   min-width: 100%;
   margin-top: -15px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
   line-height: 3;
   text-align: center;
-  font-size: 1.8em;
-  font-weight: bold;
+  font-size: 2em;
+  font-weight: regular;
+  font-family: "Montserrat", sans-serif;
 }
 
 .home-footer{
