@@ -12,15 +12,20 @@ body{
     text-transform: uppercase;
     letter-spacing: 5px;
     line-height: normal;
-    font-family: 'MODENINE';
+    font-family: 'modenine';
     -webkit-font-smoothing: antialiased;
     letter-spacing: normal;
 }
 
 @font-face {
-    font-family: "MODENINE";
-    src: url("fonts/MODENINE.ttf");
+    font-family: 'modenine';
+    src: url('modenine-webfont.woff2') format('woff2'),
+        url('modenine-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
 
 img{ 
     display: block;
