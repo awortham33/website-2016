@@ -1,12 +1,14 @@
+
+
 *{
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     box-sizing: border-box;
-    outline: none !important;
+    outline: none !important; *
 }
 
 html{ 
-    height: 100%; 
+    height: 100%;
     width:100%;
 }
 
@@ -29,6 +31,7 @@ body{
     font-family: 'modenine';
     -webkit-font-smoothing: antialiased;
     letter-spacing: normal;
+ 
 }
 
 @font-face {
@@ -50,12 +53,6 @@ a{
     color: #282828;
     text-decoration: none;
     text-align: center;
-    /*
--webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    */
 
 }
 
@@ -111,38 +108,22 @@ a{
 }
 
 
-.albumcaption a:hover{
-opacity: 0.6;
-}
-
 .social img:hover{
 opacity: 0.6;
 }
 
-.snapcode img:hover{
-opacity: 1;
-}
 
-.logo img{
-    height: auto;
-    padding: 40px;
-    max-width: 900px;
-}
-
-.logo{
-    margin: 0 auto;
-}
 
 .nav{
     margin: 0 auto;
     text-align: center;
+    padding: 80 20 0 20;
     
 }
 
 .nav a{
     vertical-align: baseline;
     display: inline-block;
-    padding: 80 20 0 20;
     font-weight: 900;
     font-size: 16px;
 }
@@ -160,13 +141,12 @@ opacity: 1;
     padding: 50 0 0 0;
 }
 
-
 .info p{
     vertical-align:middle;
     list-style: none;
     text-align:center;
     line-height: 30px;
-    
+
 }
 
 .info {
@@ -222,62 +202,11 @@ opacity: 1;
     width: 25px;
 }
 
-#soundcloud img{
-    height: 35px;
-    width: auto;
-}
-
-.snapcode p{
-font-size: 180%;
-text-transform: lowercase;
-}
 
 
 
 
-/* - - - LIGHTBOX(SNAPCHAT) - - - */
 
-.lightbox {
-	/** Default lightbox to hidden */
-	display: none;
-
-	/** Position and style */
-	position: fixed;
-	z-index: 999;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-}
-
-.lightbox img {
-	/** Pad the lightbox image */
-	max-width: 80%;
-width:450px;
-	max-height: 70%;
-	margin-top: 10%;
-}
-
-.lightbox:target {
-	/** Remove default browser outline */
-	outline: none;
-
-	/** Unhide lightbox **/
-	display: block;
-
-}
-
-.temptitle p{
-    text-align:center;
-    color:#fff;
-    font-size:22px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-}
 
 @media (max-width: 1340px){
     .album1 img{height: 175px;}
@@ -287,27 +216,28 @@ width:450px;
 
 @media (min-width: 1200px){
     .album img{width: 100%;}
-    
-    
+
+
 }
 
 @media (max-width: 900px){
-    .album1 img{height: 175px;}
+    .album1 img{height: 160px;}
     .album1 {padding: 0 0 0 0;}
 
 }
 
 @media (max-width: 767px){
-    .album1 img{height: 175px;}
+    .album1 img{height: 160px;}
     .album1{padding: 0 0 3 0;}
-
+    .info {padding-top:5em;}
+    .info p{font-size: 15px;}
+    .nav{padding: 60 0 0 0;}
 }
 
-/*
+
 @media only screen and (max-width: 800px){
     a{color: black; }
 }
-*/
 
 
 
