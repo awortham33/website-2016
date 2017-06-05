@@ -270,6 +270,7 @@ li {
     .info p{font-size: 15px;}
     .nav{padding: 60 0 0 0;}
     .imgWrap:hover .imgDescription{visibility:hidden;}
+}
 
 @media (max-width: 350px){
     .works_1 img{height: 140px;}
