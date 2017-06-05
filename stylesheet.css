@@ -261,7 +261,7 @@ li {
     .works_1 {padding: 0 0 0 0;}
 }
 
-@media (max-width: 766px){
+@media (max-width: 767px){
     .works_1 img{height: 160px;}
     .works_1{padding: 0 0 3 0;}
     .works_2 img{height: 260px;}
